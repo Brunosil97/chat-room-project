@@ -26,7 +26,7 @@ const routing = (
     <div id="routing-component">
       <Route exact path="/login" component={LoginComponent} />
       <Route ecxact path="/dashboard" component={DashboardComponent} />
-      <Route exact path="signup" component={SignupComponent} />
+      <Route exact path="/signup" component={SignupComponent} />
     </div>
   </Router>
 )
